@@ -1,0 +1,53 @@
+.project-card {
+  border-radius: 5%; 
+  min-width: 250px;
+  max-width: 350px; 
+  min-height: 325px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  background-color: #b0cfff;;
+  margin-bottom: 20px;
+}
+
+
+.project-card > h2 {
+  color: #3a86ff;
+}
+
+.pc-content {
+  display: flex;
+  text-align: start;
+  width: 100%;
+  background-color: white;
+  min-height: 200px;
+}
+
+.pc-description{
+  width: 75%;
+  padding-left: 12px;
+}
+
+.pc-links {
+ display: flex;
+ flex-direction: column;
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+}
+
+.pc-links > .link {
+  color:#3a86ff;
+  text-decoration: none;
+}
+
+.pc-links > .link:hover {
+  cursor: pointer;
+  color: #8338ec;
+  text-decoration: underline;
+}
+
+.pc-lastUpdate{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-size: .77rem
+}
